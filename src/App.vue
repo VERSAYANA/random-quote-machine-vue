@@ -28,7 +28,6 @@ export default Vue.extend({
       fetch(url)
         .then(res => res.json())
         .then(data => {
-          console.log(data);
           this.author = data[0].character;
           this.quote = data[0].quote;
           this.fetching = false;
