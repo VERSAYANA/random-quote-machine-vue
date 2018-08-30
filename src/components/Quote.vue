@@ -16,27 +16,24 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import { setTimeout } from "timers";
+import Vue from 'vue';
+import { setTimeout } from 'timers';
 
 export default Vue.extend({
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
     text: String,
     author: String,
     fetching: Boolean,
-    next: Function
+    next: Function,
   },
   computed: {
-    tweet: function() {
-      return `https://twitter.com/intent/tweet?hashtags=quotes,simpsons&text="${this.text}%0A-${this.author}"`
-    }
+    tweet(): string {
+      return `https://twitter.com/intent/tweet?hashtags=quotes,simpsons&text="${
+        this.text
+      }%0A-${this.author}"`;
+    },
   },
-  methods: {
-    delayNext: function() {
-      setTimeout(this.next(), 5000);
-    }
-  }
 });
 </script>
 
@@ -57,10 +54,12 @@ section {
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
     0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
 }
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .2s;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
 }
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 p {
