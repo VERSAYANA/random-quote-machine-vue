@@ -47,13 +47,10 @@ body {
   --color-white: rgba(255, 255, 255, 0.87);
   --accent-color: #d6c6b2;
   background-color: #21272b;
-}
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: var(--color-white);
-  font-family: "Open Sans", sans-serif;
-}
+} 
 </style>
