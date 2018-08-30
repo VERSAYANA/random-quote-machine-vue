@@ -1,26 +1,16 @@
-# random-quote-machine-vue
+[Demo](https://versayana.github.io/random-quote-machine-vue/)
 
-## Project setup
+To run on your local machine
 ```
+git clone https://github.com/VERSAYANA/random-quote-machine-vue.git
+cd random-quote-machine
 yarn install
+yarn serve
 ```
-
-### Compiles and hot-reloads for development
+or
 ```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
+git clone https://github.com/VERSAYANA/random-quote-machine-vue.git
+cd random-quote-machine
+npm install
+npm serve
 ```
