@@ -51,35 +51,12 @@ section {
   color: var(--color-white);
   box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
     0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
-  /* animation-name: come;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; */
 }
-/* section.fetching {
-  animation-name: go !important;
-  animation-duration: 2s !important;
-} */
 .fade-enter-active, .fade-leave-active {
   transition: opacity .2s;
 }
 .fade-enter, .fade-leave-to {
   opacity: 0;
-}
-@keyframes come {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: 50%;
-  }
-}
-@keyframes go {
-  0% {
-    left: 50%;
-  }
-  100% {
-    left: 100%;
-  }
 }
 p {
   font-size: 24px;
