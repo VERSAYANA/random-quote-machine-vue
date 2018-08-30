@@ -113,4 +113,13 @@ button:hover {
     font-size: 20px;
   }
 }
+@media (max-width: 600px) {
+  section {
+    width: 320px;
+    padding: 8px 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
 </style>
